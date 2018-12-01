@@ -8,8 +8,8 @@ rm -rf vendor/qcom/open-source/interfaces && git clone https://github.com/blackm
 
 git clone https://github.com/Scissordragonboy/device_xiaomi_oxygen.git -b po device/xiaomi/oxygen
 
-git clone https://github.com/blackmiddow/vendor_xiaomi.git -b posp vendor/Xiaomi
+git clone https://github.com/blackmiddow/vendor_xiaomi.git -b posp vendor/xiaomi
 
-git clone https://github.com/blackmiddow/device_xiaomi_msm8953-common.git -b pie device/Xiaomi/msm8953-common
+git clone https://github.com/blackmiddow/device_xiaomi_msm8953-common.git -b pie device/xiaomi/msm8953-common
 
 git clone https://github.com/blackmiddow/kernel_xiaomi_oxygen.git -b pie kernel/xiaomi/msm8953
