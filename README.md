@@ -4,7 +4,7 @@ rm -rf hardware/qcom/media-caf/msm8996 && git clone https://github.com/blackmidd
 
 rm -rf hardware/qcom/display-caf/msm8996 && git clone https://github.com/blackmiddow/hardware_qcom_display-caf.git -b pie-caf-8996 hardware/qcom/display-caf/msm8996
 
-rm -rf vendor/qcom/open-source/interfaces && git clone https://github.com/blackmiddow/android_vendor_qcom_opensource_interfaces.git -b pie vendor/qcom/open-source/interfaces
+rm -rf vendor/qcom/opensource/interfaces && git clone https://github.com/blackmiddow/android_vendor_qcom_opensource_interfaces.git -b pie vendor/qcom/opensource/interfaces
 
 git clone https://github.com/Scissordragonboy/device_xiaomi_oxygen.git -b po device/xiaomi/oxygen
 
