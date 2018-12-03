@@ -10,6 +10,18 @@ git clone https://github.com/Scissordragonboy/device_xiaomi_oxygen.git -b po dev
 
 git clone https://github.com/blackmiddow/vendor_xiaomi.git -b posp vendor/xiaomi
 
-git clone https://github.com/blackmiddow/device_xiaomi_msm8953-common.git -b pie device/xiaomi/msm8953-common
+git clone https://github.com/Scissordragonboy/device_xiaomi_msm8953-common.git -b pie device/xiaomi/msm8953-common
 
 git clone https://github.com/blackmiddow/kernel_xiaomi_oxygen.git -b pie kernel/xiaomi/msm8953
+
+git clone https://github.com/sandyorton7/display display
+
+git clone https://github.com/sandyorton7/media media
+
+git clone https://github.com/sandyorton7/audio audio
+
+git clone https://github.com/sandyorton7/bt bt
+
+git clone https://github.com/sandyorton7/wlan wlan
+
+git clone https://github.com/sandyorton7/power power
