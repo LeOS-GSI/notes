@@ -20,7 +20,7 @@ rm -rf hardware/qcom/media && git clone https://github.com/sandyorton7/media med
 
 rm -rf hardware/qcom/audio && git clone https://github.com/sandyorton7/audio audio
 
-rm -rf hardware/qcom/bt && git clone https://github.com/sandyorton7/bt hardware/qcom/bht
+rm -rf hardware/qcom/bt && git clone https://github.com/sandyorton7/bt hardware/qcom/bt
 
 rm -rf hardware/qcom/wlan && git clone https://github.com/sandyorton7/wlan hardware/qcom/wlan
 
