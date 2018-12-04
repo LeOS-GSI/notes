@@ -14,14 +14,14 @@ git clone https://github.com/Scissordragonboy/device_xiaomi_msm8953-common.git -
 
 git clone https://github.com/blackmiddow/kernel_xiaomi_oxygen.git -b pie kernel/xiaomi/msm8953
 
-rm -rf display && git clone https://github.com/sandyorton7/display display
+rm -rf hardware/qcom/display && git clone https://github.com/sandyorton7/display display
 
-rm -rf media && git clone https://github.com/sandyorton7/media media
+rm -rf hardware/qcom/media && git clone https://github.com/sandyorton7/media media
 
-rm -rf audio && git clone https://github.com/sandyorton7/audio audio
+rm -rf hardware/qcom/audio && git clone https://github.com/sandyorton7/audio audio
 
-rm -rf bt && git clone https://github.com/sandyorton7/bt bt
+rm -rf hardware/qcom/bt && git clone https://github.com/sandyorton7/bt bt
 
-rm -rf wlan && git clone https://github.com/sandyorton7/wlan wlan
+rm -rf hardware/qcom/wlan && git clone https://github.com/sandyorton7/wlan wlan
 
-rm -rf power && git clone https://github.com/sandyorton7/power power
+rm -rf hardware/qcom/power && git clone https://github.com/sandyorton7/power power
