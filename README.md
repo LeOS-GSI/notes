@@ -1,6 +1,6 @@
-rm -rf hardware/qcom/audio-caf/msm8996 && git clone https://github.com/blackmiddow/hardware_qcom_audio.git -b pie-caf-8996 hardware/qcom/audio-caf/msm8996
+rm -rf hardware/qcom/audio-caf/msm8996 && git clone https://github.com/PotatoProject/hardware_qcom_audio.git baked-caf-8996 hardware/qcom/audio-caf/msm8996
 
-rm -rf hardware/qcom/media-caf/msm8996 && git clone https://github.com/blackmiddow/hardware_qcom_media.git -b pie-caf-8996 hardware/qcom/media-caf/msm8996
+rm -rf hardware/qcom/media-caf/msm8996 && git clone https://github.com/PotatoProject/hardware_qcom_media.git baked-caf-8996 hardware/qcom/media-caf/msm8996
 
 rm -rf hardware/qcom/display-caf/msm8996 && git clone https://github.com/blackmiddow/hardware_qcom_display-caf.git -b pie-caf-8996 hardware/qcom/display-caf/msm8996
 
