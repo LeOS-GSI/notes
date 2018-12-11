@@ -25,3 +25,15 @@ rm -rf hardware/qcom/bt && git clone https://github.com/sandyorton7/bt hardware/
 rm -rf hardware/qcom/wlan && git clone https://github.com/sandyorton7/wlan hardware/qcom/wlan
 
 rm -rf hardware/qcom/power && git clone https://github.com/sandyorton7/power hardware/qcom/power
+
+nano vendor/xiaomi/msm8953-common/Android.mk
+
+nano device/xiaomi/oxygen/camera/QCamera2/Android.mk
+
+nano device/xiaomi/oxygen/vendorsetup.sh
+
+nano device/xiaomi/oxygen/aosp_oxygen.mk
+
+nano vendor/aosp/vendorsetup.sh
+
+cd vendor/aosp/config
