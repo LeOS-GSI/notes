@@ -5,11 +5,12 @@ rm -rf hardware/qcom/power && git clone https://github.com/sandyorton7/power har
 rm -rf hardware/qcom/bt && git clone https://github.com/sandyorton7/bt hardware/qcom/bt
 
 
-android file host upload link--
+## android file host upload link-- ##
 curl --ftp-pasv -T RevengeOS-2.2-Pasta-UNOFFICIAL-h930-20190103-0741.zip ftp://Scissordragonboy:IOs3gFSCyEtv@uploads.androidfilehost.com
 
 
-
+## search and replace-- ##
+find -type f -exec sed -i 's/h930/h931/g' {} \;
 
 
 
