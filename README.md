@@ -1,8 +1,7 @@
 rm -rf hardware/qcom/audio-caf/msm8996 && git clone https://github.com/blackmiddow/hardware_qcom_audio-caf.git -b pie-caf-8996 hardware/qcom/audio-caf/msm8996 && rm -rf hardware/qcom/media-caf/msm8996 && git clone https://github.com/blackmiddow/hardware_qcom_media-caf.git -b pie-caf-8996 hardware/qcom/media-caf/msm8996 && 
 rm -rf hardware/qcom/display-caf/msm8996 && git clone https://github.com/blackmiddow/hardware_qcom_display-caf.git -b pie-caf-8996 hardware/qcom/display-caf/msm8996 && rm -rf vendor/qcom/opensource/interfaces && git clone https://github.com/blackmiddow/android_vendor_qcom_opensource_interfaces.git -b pie vendor/qcom/opensource/interfaces && rm -rf vendor/xiaomi && git clone https://github.com/Scissordragonboy/Vendor_xiaomi_common.git -b arrow-9.x vendor/xiaomi && rm -rf kernel/xiaomi && git clone https://github.com/Scissordragonboy/Kernel_xiaomi_oxygen-1.git -b pie_final kernel/xiaomi/msm8953 && 
-rm -rf hardware/qcom/wlan && git clone https://github.com/sandyorton7/wlan hardware/qcom/wlan && 
-rm -rf hardware/qcom/power && git clone https://github.com/sandyorton7/power hardware/qcom/power && rm -rf hardware/qcom/display && git clone https://github.com/sandyorton7/display hardware/qcom/display && rm -rf hardware/qcom/media && git clone https://github.com/sandyorton7/media hardware/qcom/media && 
-rm -rf hardware/qcom/bt && git clone https://github.com/sandyorton7/bt hardware/qcom/bt
+rm -rf hardware/qcom/display && git clone https://github.com/sandyorton7/display hardware/qcom/display && rm -rf hardware/qcom/media && git clone https://github.com/sandyorton7/media hardware/qcom/media && 
+
 
 
 ## android file host upload link-- ##
@@ -12,7 +11,9 @@ curl --ftp-pasv -T RevengeOS-2.2-Pasta-UNOFFICIAL-h930-20190103-0741.zip ftp://S
 ## search and replace-- ##
 find -type f -exec sed -i 's/h930/h931/g' {} \;
 
+## important booting hals
 
+## rm -rf hardware/qcom/wlan && git clone https://github.com/sandyorton7/wlan hardware/qcom/wlan && rm -rf hardware/qcom/power && git clone https://github.com/sandyorton7/power hardware/qcom/power && rm -rf hardware/qcom/bt && git clone https://github.com/sandyorton7/bt hardware/qcom/bt ##
 
 git clone https://github.com/Scissordragonboy/device_xiaomi_oxygen.git -b po device/xiaomi/oxygen
 
