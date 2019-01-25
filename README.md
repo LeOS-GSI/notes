@@ -8,9 +8,9 @@ git clone https://github.com/blackmiddow/device_xiaomi_oxyge.git -b rr device/xi
 
 ## rm -rf hardware/qcom/display && git clone https://github.com/sandyorton7/display hardware/qcom/display && rm -rf hardware/qcom/media && git clone https://github.com/sandyorton7/media hardware/qcom/media && rm -rf hardware/qcom/audio && git clone https://github.com/sandyorton7/audio hardware/qcom/audio ##
 
+## Carbon Beta rom hals ##
 
-
-
+rm -rf hardware/qcom/audio && git clone https://github.com/CarbonBeta/android_hardware_qcom_audio.git -b cr-7.0 hardware/qcom/audio && rm -rf hardware/qcom/media && git clone https://github.com/CarbonBeta/android_hardware_qcom_media.git -b cr-7.0 hardware/qcom/media && rm -rf hardware/qcom/display && git clone https://github.com/CarbonBeta/android_hardware_qcom_display.git -b cr-7.0 hardware/qcom/display && rm -rf hardware/qcom/audio-caf/msm8996 && git clone https://github.com/CarbonBeta/android_hardware_qcom_audio.git -b cr-7.0-caf-8996 hardware/qcom/audio-caf/msm8996 && rm -rf hardware/qcom/media-caf/msm8996 && git clone https://github.com/CarbonBeta/android_hardware_qcom_media.git -b cr-7.0-caf-8996 hardware/qcom/media-caf/msm8996 && rm -rf hardware/qcom/display-caf/msm8996 && git clone https://github.com/CarbonBeta/android_hardware_qcom_display.git -b cr-7.0-caf-8996 hardware/qcom/display-caf/msm8996
 
 ## android file host upload link-- ##
 curl --ftp-pasv -T RevengeOS-2.2-Pasta-UNOFFICIAL-h930-20190103-0741.zip ftp://Scissordragonboy:IOs3gFSCyEtv@uploads.androidfilehost.com
