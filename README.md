@@ -2,7 +2,7 @@ rm -rf hardware/qcom/audio-caf/msm8996 && git clone https://github.com/blackmidd
 rm -rf hardware/qcom/display-caf/msm8996 && git clone https://github.com/blackmiddow/hardware_qcom_display-caf.git -b pie-caf-8996 hardware/qcom/display-caf/msm8996 && rm -rf vendor/qcom/opensource/interfaces && git clone https://github.com/blackmiddow/android_vendor_qcom_opensource_interfaces.git -b pie vendor/qcom/opensource/interfaces 
 
 ## DEVICE TREES ##
-git clone https://github.com/blackmiddow/device_xiaomi_oxyge.git -b rr device/xiaomi/oxygen && git clone https://github.com/blackmiddow/device_xiaomi-msm8953-common.git -b pie device/xiaomi/msm8953-common && git clone https://github.com/blackmiddow/vendor_xiaomi_oxygen.git -b pie vendor/xiaomi && git clone https://github.com/blackmiddow/kernel_xiaomi_oxygen.git -b vol-1 kernel/xiaomi/msm8953
+git clone https://github.com/blackmiddow/device_xiaomi_oxyge.git -b rr device/xiaomi/oxygen && git clone https://github.com/blackmiddow/device_xiaomi_msm8953-common.git -b pie device/xiaomi/msm8953-common && git clone https://github.com/blackmiddow/vendor_xiaomi_oxygen.git -b pie vendor/xiaomi && git clone https://github.com/blackmiddow/kernel_xiaomi_oxygen.git -b vol-1 kernel/xiaomi/msm8953
 
 ## Audio, Media and display hals ## 
 
