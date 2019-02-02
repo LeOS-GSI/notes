@@ -14,7 +14,7 @@ curl --ftp-pasv -T RevengeOS-2.2-Pasta-UNOFFICIAL-h930-20190103-0741.zip ftp://S
 
 ## Havoc-OS device tree
 
-## git clone https://github.com/blackmiddow/havoc_device_xiaomi_oxygen.git -b havoc device/xiaomi/oxygen && git clone https://github.com/blackmiddow/device_xiaomi_msm8953-common.git -b havoc device/xiaomi/msm8953-common && git clone https://github.com/Mohzunedbrt/Vendor_xiaomi_common.git -b arro-9.x vendor/xiaomi && git clone https://github.com/rakeshraimca/Kernel_xiaomi_oxygen.git -b lineage-16 kernel/xiaomi/msm8953  ##
+## git clone https://github.com/blackmiddow/havoc_device_xiaomi_oxygen.git -b havoc device/xiaomi/oxygen && git clone https://github.com/blackmiddow/device_xiaomi_msm8953-common.git -b havoc device/xiaomi/msm8953-common && git clone https://github.com/Mohzunedbrt/Vendor_xiaomi_common.git -b arrow-9.x vendor/xiaomi && git clone https://github.com/rakeshraimca/Kernel_xiaomi_oxygen.git -b lineage-16 kernel/xiaomi/msm8953  ##
 
 
 ## search and replace-- ##
