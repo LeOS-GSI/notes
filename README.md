@@ -1,7 +1,7 @@
  
 
 ## DEVICE TREES ##
-git clone https://github.com/blackmiddow/device_xiaomi_oxyge.git -b rr device/xiaomi/oxygen && git clone https://github.com/blackmiddow/device_xiaomi_msm8953-common.git -b pie device/xiaomi/msm8953-common && git clone https://github.com/blackmiddow/vendor_xiaomi_oxygen.git -b pie vendor/xiaomi && git clone https://github.com/blackmiddow/kernel_xiaomi_oxygen.git -b vol-1 kernel/xiaomi/msm8953
+git clone https://github.com/oxygen-pie/bootleggers_device_xiaomi_oxygen.git -b pie device/xiaomi/oxygen && git clone https://github.com/oxygen-pie/device_xiaomi_msm8953-common.git -b pie device/xiaomi/msm8953-common && git clone https://github.com/blackmiddow/vendor_xiaomi_oxygen.git -b pie vendor/xiaomi && git clone https://github.com/blackmiddow/kernel_xiaomi_oxygen.git -b vol kernel/xiaomi/msm8953
 
 
 
