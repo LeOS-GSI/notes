@@ -4,6 +4,8 @@
 git clone https://github.com/oxygen-pie/bootleggers_device_xiaomi_oxygen.git -b pie device/xiaomi/oxygen && git clone https://github.com/oxygen-pie/device_xiaomi_msm8953-common.git -b pie device/xiaomi/msm8953-common && git clone https://github.com/blackmiddow/vendor_xiaomi_oxygen.git -b pie vendor/xiaomi && git clone https://github.com/blackmiddow/kernel_xiaomi_oxygen.git -b vol kernel/xiaomi/msm8953
 
 
+## nougat trees
+##   git clone https://github.com/kenzolo/android_device_xiaomi_oxygen.git -b cm-14.1 device/xiaomi/oxygen && git clone https://github.com/ashwinr64/android_vendor_xiaomi_oxygen.git -b cm-14.1 vendor/xiaomi/oxygen && git clone https://github.com/rakeshraimca/Xiaomi_Nougat_oxygen-.git -b nougat kernel/xiaomi/msm8953    ##
 
 ## Carbon Beta rom hals ##
 
