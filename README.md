@@ -27,6 +27,9 @@ curl --ftp-pasv -T RevengeOS-2.2-Pasta-UNOFFICIAL-h930-20190103-0741.zip ftp://S
 ## rm -rf hardware/qcom/wlan && git clone https://github.com/sandyorton7/wlan hardware/qcom/wlan && rm -rf hardware/qcom/power && git clone https://github.com/sandyorton7/power hardware/qcom/power && rm -rf hardware/qcom/bt && git clone https://github.com/sandyorton7/bt hardware/qcom/bt ##
 
 
+## rm -rf hardware/qcom/audio && git clone https://github.com/sandyorton7/audio hardware/qcom/audio && rm -rf hardware/qcom/media && git clone https://github.com/sandyorton7/media hardware/qcom/media && rm -rf hardware/qcom/display && git clone https://github.com/sandyorton7/display hardware/qcom/display ##
+
+
 ###    nano vendor/xiaomi/msm8953-common/Android.mk
 
 ###   nano device/xiaomi/oxygen/camera/QCamera2/Android.mk
