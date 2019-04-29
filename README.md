@@ -20,7 +20,7 @@ curl --ftp-pasv -T RevengeOS-2.2-Pasta-UNOFFICIAL-h930-20190103-0741.zip ftp://S
 
 
 ## search and replace-- ##
- ##  find -type f -exec sed -i 's/bootleg/havoc/g' {} \;   ##
+ ##  find . -maxdepth 1 -type f -exec sed -i 's/foo/bar/g' {} \;  ##
 
 ## important booting hals
 
